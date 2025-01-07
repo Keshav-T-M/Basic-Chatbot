@@ -80,3 +80,6 @@ def chatbot():
     print("Hi! I'm Jarvis, your friendly assistant. How can I assist you today?") 
     chat = Chat(pairs, reflections)
     chat.converse()
+
+if __name__ == "__main__":
+    chatbot()
