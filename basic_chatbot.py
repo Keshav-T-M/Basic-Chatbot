@@ -75,3 +75,8 @@ pairs = [
         ["I didn't understand that. Could you please rephrase?", "Could you say that again?", "I'm still learning. Can you try asking in a different way?",]
     ],
 ]
+
+def chatbot():
+    print("Hi! I'm Jarvis, your friendly assistant. How can I assist you today?") 
+    chat = Chat(pairs, reflections)
+    chat.converse()
